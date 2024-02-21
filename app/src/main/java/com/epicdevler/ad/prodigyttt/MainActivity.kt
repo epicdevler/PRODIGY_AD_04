@@ -41,7 +41,7 @@ fun App() {
     }
 }
 
-@Preview(showBackground = true)
+@Preview(showBackground = true, apiLevel = 33)
 @Composable
 fun AppPreview() {
     App()
